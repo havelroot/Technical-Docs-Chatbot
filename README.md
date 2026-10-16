@@ -195,16 +195,6 @@ python -m pytest
 
 Os testes usam o modo sem modelos e cobrem autenticação, bloqueio por tentativas, cadastro em arquivo, envio e indexação de PDF, respostas com fontes, pergunta fora do conteúdo, escopo, reranking, permissões e exclusão de vetores.
 
-## Commits automáticos
-
-O workflow [`.github/workflows/diario.yml`](.github/workflows/diario.yml) acrescenta uma linha em `.github/atividade.txt` e faz um commit todos os dias às **11h37** (horário de Brasília). Para ativar no seu fork:
-
-1. Em **Settings › Secrets and variables › Actions**, crie os segredos `GIT_NAME` (seu nome no GitHub) e `GIT_EMAIL` (o e-mail da sua conta, ou o endereço `...@users.noreply.github.com` mostrado em **Settings › Emails**).
-2. Em **Settings › Actions › General › Workflow permissions**, marque **Read and write permissions** e salve.
-3. Em **Actions › Atividade diaria**, clique em **Run workflow** para testar na hora.
-
-O GitHub pode atrasar execuções agendadas em alguns minutos nos horários de pico.
-
 ## Licença
 
 [MIT](LICENSE). Use, copie, altere e distribua à vontade.
