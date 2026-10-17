@@ -2,7 +2,7 @@
   <img src="docs/images/logo.png" width="200" alt="Nexo">
 </p>
 
-<h1 align="center">Nexo<br><sub><sup><sup><sub>Feito por Erik L. Pimenta</sub></sup></sup></sub></h1>
+<h1 align="center">Nexo<br><sub><sup><sup><sub>Copyright (©) 2026 Erik Pimenta</sub></sup></sup></sub></h1>
 
 <p align="center">
   Chatbot que responde dúvidas sobre manuais técnicos e livros em PDF usando somente o conteúdo dos documentos enviados.<br>
