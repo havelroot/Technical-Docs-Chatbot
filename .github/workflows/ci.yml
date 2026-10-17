@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - '.github/atividade.txt'
   pull_request:
+  schedule:
+    - cron: '7 13 * * *'  # todo dia às 10:07 (Brasília)
   workflow_dispatch:
 
 jobs:
